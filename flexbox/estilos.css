@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 275px;
+    gap: 10px;
+}
+
+.image {
+    align-items: center;
+    display: flex;
+}
