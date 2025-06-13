@@ -1,14 +1,16 @@
-body{
+body {
     background-color: #e0e1dd;
+    margin: 0;
 }
 
-.sup{
+/*main*/
+.sup {
     display: flex;
     justify-content: space-between;
 }
 
-.der{
-    
+.der {
+
     display: flex;
     justify-content: right;
     flex-direction: row;
@@ -16,48 +18,48 @@ body{
     gap: 10px;
 }
 
-.izq{
-    
+.izq {
+
     display: flex;
     justify-content: left;
     flex-direction: row;
     align-items: center;
 }
 
-.nuevo{
-    color:chocolate;
+.nuevo {
+    color: chocolate;
     font-size: 25px;
     font-family: "Ancizar Sans", sans-serif;
 }
 
-.nom{
+.nom {
     color: #415a77;
     font-size: 35px;
     font-family: "Ancizar Sans", sans-serif;
 
 }
 
-.precio{
+.precio {
     color: #415a77;
     font-size: 30px;
     font-family: "Ancizar Sans", sans-serif;
 
 }
 
-.inf{
+.inf {
     color: #778da9;
     font-size: 20px;
     font-family: "Ancizar Sans", sans-serif;
 }
 
-.productos{
+.productos {
     padding: 20px;
     gap: 20px;
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
 
-.producto{
+.producto {
     gap: 10px;
     width: calc(33.333% - 20px);
     border: 1px black;
@@ -65,7 +67,74 @@ justify-content: center;
     flex-direction: column;
 }
 
-.imagen img{
+.imagen img {
     width: 100%;
     height: 100%;
+}
+
+/*footer*/
+footer {
+    background-color: cadetblue;
+    
+}
+
+
+.contenedorA {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#iconos-redes {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.contenedorB {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top:black solid 4px;
+    
+}
+
+.contenedorB ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+.filas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 10px;
+    padding-top: 5px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.FyL{
+    display: flex;
+    align-items: center;
+}
+.espacio{
+    display: flex;
+    gap: 15px;
+}
+.whatsapp{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
 }
